@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteBase /~skinie18
+RewriteRule ^([a-z0-9]+)$ redirect.php?code=$1
