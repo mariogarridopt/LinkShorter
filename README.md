@@ -11,6 +11,12 @@ This is an simple model to build one LinkShorter. In this case i use sql to stor
 3. Make the proper tables on your DB;
 
 ###DB Table###
-```
-soon
+```sql
+CREATE TABLE IF NOT EXISTS shortlinks (
+  id int(11) NOT NULL AUTO_INCREMENT,
+  code varchar(10) NOT NULL,
+  url text NOT NULL,
+  created timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (id)
+) ENGINE=InnoDB AUTO_INCREMENT=0;
 ```
