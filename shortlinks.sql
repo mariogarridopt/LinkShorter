@@ -1,4 +1,4 @@
-CREATE TABLE IF NOT EXISTS `shotlinks` (
+CREATE TABLE IF NOT EXISTS `shortlinks` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `code` varchar(10) NOT NULL,
   `url` text NOT NULL,
