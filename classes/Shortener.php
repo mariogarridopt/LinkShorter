@@ -11,7 +11,7 @@ class Shortener {
     }
     
     public function makeCode($url) {
-        $url = trim(strtolower($url));
+        $url = trim($url);
         
         // Some link shorting
         $url = str_replace("http://www.","http://", $url);
